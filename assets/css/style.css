@@ -1,0 +1,205 @@
+* { /* the asterisk is a universal element changer, so it affects the formatting of the whole page*/
+    box-sizing: border-box; /*sets how the dimensions of the box are calculated, and gives the box a border*/
+    padding: 0; /*the space between the element and the other elements within it*/
+    margin: 0; /*the space between the element and the other elements on the page*/
+}
+
+body { /*affects the background color of everything under the body section, basically everything on the page*/
+    background-color: #d9dcd6;
+}
+
+.header { /*formatting for Horiseon brand header*/
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.header h1 { /*formatting for whole Horizeon header*/
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header h1 .seo { /*formatting for just the 'seo' of Horiseon*/
+    color: #d9dcd6;
+}
+
+
+.header nav { /*formatting for navigation bar elements*/
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right; /*float command acts like a text-wrap but for the element, allowing other elements to wrap around it, in this case to the right of it*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header nav ul {
+    list-style-type: none; /*makes list have no bullets or markers*/
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a { /*text formatting of links in navigation bar*/
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.hero { /*formatting of hero image; not sourcing it in HTML allows it to be a background image in CSS when we source it here*/
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg"); /*this is where you link or source the image*/
+    background-size: cover; /*cover makes it full-size*/
+    background-position: center; /*centers background image*/
+}
+
+
+.float-left { /*wrap-left effect; other elements display to the right of it*/
+    float: left;
+    margin-right: 25px;
+}
+
+.content { /*affects all sections under 'content' class ie. SEO, ORM, SMM*/
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+p { /*affects anything with the 'p' tag*/
+    font-size: 16px;
+}
+
+.search-engine-optimization { /*formatting for search engine subsection*/
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.search-engine-optimization img { /*image height formatting*/
+    max-height: 200px;
+}
+
+.search-engine-optimization h2 { /*header formatting*/
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+
+.float-right { /*other elements wrap to the left of this, while this element is on the right of the page*/
+    float: right;
+    margin-left: 25px;
+}
+
+.benefits { /*general formatting for everything under the 'benefits' class*/
+    margin-right: 20px;
+    padding: 20px;
+    clear: both; /*keeps other elements from being of both sides of this element*/
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.benefit-lead { /*Lead Generation subsection formatting*/
+    margin-bottom: 32px;
+    color: #ffffff;
+} 
+
+.benefit-lead h3 { /*Lead Generation header with bottom margin and center alignment*/
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-lead img { /*Lead Generation image formatting*/
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+
+.footer { /*formatting for footer box, including text Made with ❤️ by Horiseon*/
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 { /*formatting for copyright subtext*/
+    font-size: 20px;
+}
